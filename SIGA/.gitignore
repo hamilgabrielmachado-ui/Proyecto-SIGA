@@ -1,12 +1,14 @@
+
+# Variables de entorno y contraseñas
 .env
-venv/
-.venv/
+.env.*
+!.env.example
+
+# Archivos temporales de Python
 __pycache__/
 *.pyc
-.pytest_cache/
-backups/*
-!backups/.gitkeep
-reports/*/*
-!reports/*/.gitkeep
-*.sqlite3
-.vscode/
+.venv/
+venv/
+
+# Copias de seguridad
+backups/

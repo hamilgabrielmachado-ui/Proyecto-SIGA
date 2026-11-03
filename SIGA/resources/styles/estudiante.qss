@@ -1,0 +1,7 @@
+/* Rol Estudiante: acento índigo en la barra lateral. */
+QFrame#Sidebar { background: #312E81; }
+QPushButton#MenuBoton { color: #D9D8F5; }
+QPushButton#MenuBoton:hover { background: #4540A8; }
+QPushButton#MenuBoton:checked { color: #312E81; }
+QPushButton#MenuSalir { border-color: #7C79C9; }
+QLabel#InsigniaRol { background: #E0E0FA; color: #312E81; }

@@ -1,0 +1,2 @@
+/* Rol Administrador: azul institucional (valores por defecto de main.qss). */
+QLabel#InsigniaRol { background: #DCE6F5; color: #1B3A6B; }

@@ -1,0 +1,65 @@
+/* SIGA — estilos base. Paleta: azul institucional, blanco y grises. */
+* { font-family: "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif; font-size: 10pt; color: #1F2937; }
+QMainWindow, QDialog { background: #F3F5F9; }
+QWidget#LoginFondo { background: #F3F5F9; }
+QLabel { background: transparent; }
+
+QLabel#Saludo { font-size: 20pt; font-weight: 600; color: #1B3A6B; }
+QLabel#Subtitulo { font-size: 13pt; font-weight: 600; color: #1B3A6B; margin-top: 10px; }
+QLabel#Nota { color: #6B7280; font-size: 9pt; }
+QLabel#TituloDialogo { font-size: 13pt; font-weight: 600; color: #1B3A6B; padding-bottom: 6px; }
+QLabel#MensajeError { color: #B91C1C; background: #FEE2E2; border: 1px solid #FCA5A5; border-radius: 6px; padding: 8px; }
+QLabel#MensajeExito { color: #15803D; font-weight: 600; }
+QLabel#MensajeVacio { color: #6B7280; font-size: 11pt; padding: 40px; }
+
+/* Barra lateral */
+QFrame#Sidebar { background: #1B3A6B; }
+QLabel#SidebarMarca { color: #FFFFFF; font-size: 22pt; font-weight: 700; padding-left: 6px; }
+QPushButton#MenuBoton { background: transparent; color: #DCE6F5; border: none; border-radius: 8px;
+    text-align: left; padding: 10px 8px; }
+QPushButton#MenuBoton:hover { background: #26508F; color: #FFFFFF; }
+QPushButton#MenuBoton:checked { background: #FFFFFF; color: #1B3A6B; font-weight: 600; }
+QPushButton#MenuSalir { background: transparent; color: #FBD5D5; border: 1px solid #5B7BB0; border-radius: 8px;
+    text-align: left; padding: 10px 8px; }
+QPushButton#MenuSalir:hover { background: #7F1D1D; color: #FFFFFF; }
+
+/* Barra superior */
+QFrame#Topbar { background: #FFFFFF; border-bottom: 1px solid #E2E8F0; }
+QLabel#TopbarTitulo { font-size: 15pt; font-weight: 600; color: #1B3A6B; }
+QLabel#TopbarUsuario { color: #374151; font-weight: 600; margin-right: 6px; }
+QLabel#InsigniaRol { background: #DCE6F5; color: #1B3A6B; border-radius: 10px; padding: 3px 12px; font-weight: 600; }
+
+/* Tarjetas */
+QFrame#Tarjeta { background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; }
+QLabel#TarjetaTitulo { color: #6B7280; font-size: 9pt; }
+QLabel#TarjetaValor { font-size: 22pt; font-weight: 700; color: #1B3A6B; }
+
+/* Botones */
+QPushButton { border-radius: 8px; padding: 8px 16px; border: 1px solid #CBD5E1; background: #FFFFFF; }
+QPushButton:hover { background: #EEF3FB; }
+QPushButton:disabled { color: #9CA3AF; background: #F3F4F6; border-color: #E5E7EB; }
+QPushButton[variante="primario"] { background: #1F5FBF; color: #FFFFFF; border: 1px solid #1F5FBF; font-weight: 600; }
+QPushButton[variante="primario"]:hover { background: #174C9A; }
+QPushButton[variante="primario"]:disabled { background: #A9BEDF; border-color: #A9BEDF; color: #FFFFFF; }
+QPushButton[variante="peligro"] { color: #B91C1C; border: 1px solid #FCA5A5; }
+QPushButton[variante="peligro"]:hover { background: #FEE2E2; }
+QPushButton[variante="secundario"] { color: #1F5FBF; }
+
+/* Campos */
+QLineEdit, QComboBox, QDateEdit, QSpinBox, QPlainTextEdit { background: #FFFFFF; border: 1px solid #CBD5E1;
+    border-radius: 8px; padding: 6px 10px; min-height: 22px; }
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus, QSpinBox:focus, QPlainTextEdit:focus { border: 2px solid #1F5FBF; }
+QLineEdit:disabled, QComboBox:disabled, QDateEdit:disabled { background: #F3F4F6; color: #6B7280; }
+QComboBox QAbstractItemView { background: #FFFFFF; selection-background-color: #DCE6F5; selection-color: #1B3A6B; }
+
+/* Tablas */
+QTableWidget { background: #FFFFFF; alternate-background-color: #F7F9FC; border: 1px solid #E2E8F0; border-radius: 10px;
+    gridline-color: #EEF1F6; selection-background-color: #DCE6F5; selection-color: #1B3A6B; }
+QHeaderView::section { background: #EAF0F9; color: #1B3A6B; font-weight: 600; padding: 8px; border: none;
+    border-bottom: 1px solid #CBD5E1; }
+QTableWidget::item { padding: 4px; }
+
+QScrollBar:vertical { background: transparent; width: 10px; }
+QScrollBar::handle:vertical { background: #CBD5E1; border-radius: 5px; min-height: 30px; }
+QScrollBar::add-line, QScrollBar::sub-line { height: 0; width: 0; }
+QToolTip { background: #1B3A6B; color: #FFFFFF; border: none; padding: 4px; }

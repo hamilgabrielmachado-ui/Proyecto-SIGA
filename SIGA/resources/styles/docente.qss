@@ -1,0 +1,7 @@
+/* Rol Docente: acento verde azulado en la barra lateral. */
+QFrame#Sidebar { background: #134E4A; }
+QPushButton#MenuBoton { color: #CCE9E6; }
+QPushButton#MenuBoton:hover { background: #1B6B66; }
+QPushButton#MenuBoton:checked { color: #134E4A; }
+QPushButton#MenuSalir { border-color: #4F8F8A; }
+QLabel#InsigniaRol { background: #D5EFEC; color: #134E4A; }

@@ -1,0 +1,5 @@
+QFrame#LoginLado { background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #1B3A6B, stop:1 #1F5FBF); }
+QLabel#LoginMarca { color: #FFFFFF; font-size: 48pt; font-weight: 700; }
+QLabel#LoginLema { color: #DCE6F5; font-size: 13pt; }
+QFrame#LoginCard { background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; }
+QLabel#LoginTitulo { font-size: 20pt; font-weight: 600; color: #1B3A6B; }

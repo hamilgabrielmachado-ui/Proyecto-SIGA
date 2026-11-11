@@ -14,7 +14,7 @@ from utils.constantes import DIAS_SEMANA
 from utils.excepciones import DuplicadoError, NoEncontradoError, PermisoError, ValidacionError
 
 CAMPOS = ("id_profesor", "id_centro", "id_anio", "id_grado", "id_seccion", "id_asignatura",
-          "id_periodo", "id_modalidad", "dia_semana")
+        "id_periodo", "id_modalidad", "dia_semana")
 
 
 def _decorar(f):

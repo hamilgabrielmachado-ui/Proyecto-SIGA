@@ -1,6 +1,6 @@
 from PySide6.QtCore import Qt, Signal
 from PySide6.QtWidgets import (QButtonGroup, QFrame, QHBoxLayout, QLabel, QMainWindow, QPushButton, QStackedWidget,
-                               QVBoxLayout, QWidget)
+                            QVBoxLayout, QWidget)
 
 from controllers.asignacion_controller import AsignacionController
 from controllers.asistencia_controller import AsistenciaController

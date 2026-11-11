@@ -99,7 +99,7 @@ def eliminar(actor, id_estudiante):
             raise NoEncontradoError("El estudiante ya no existe.")
         if repo.tiene_dependencias(id_estudiante):
             raise ValidacionError("No se puede eliminar: el estudiante tiene matrículas, asistencia o una "
-                                  "cuenta asociada. Puede desactivarlo en su lugar.")
+                                "cuenta asociada. Puede desactivarlo en su lugar.")
         detalle = f"{e.codigo} {e.nombre_completo}"
         try:
             repo.eliminar(e)
